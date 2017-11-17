@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE context
+        PUBLIC ""
+        "com/nxl/codegenerator/config/xml/confguration-1.0.dtd">
+
+<context>
+    <properties resource="jdbc.properties"/>
+
+    <property name="autoDelimitKeywords" value="false"/>
+    <property name="javaFileEncoding" value="UTF-8"/>
+    <property name="beginningDelimiter" value="`"/>
+    <property name="endingDelimiter" value="`"/>
+
+    <projectBaseInfo
+            projectName="GeneratedProject"
+            sourceDirectory="src/main/java"
+            resourcesDirectory="src/main/resources"
+            rootPackage="com.foo.kie"/>
+
+    <mavenCoordinate
+            groupId="com.foo"
+            artifactId="kie"
+            version="1.0.0-SNAPSHOT"/>
+
+    <jdbcConnection
+            driverClassName="${jdbc.driverClassName}"
+            connectionURL="${jdbc.connectionURL}"
+            userName="${jdbc.userName}"
+            password="${jdbc.password}">
+        <property name="allowMultipleQuery" value="true"/>
+    </jdbcConnection>
+
+    <javaTypeResolver
+            type="com.nxllxn.codegenerator.jdbc.java.JavaTypeResolver"/>
+
+    <javaModelGenerator
+            type="com.nxllxn.codegenerator.codegen.generator.entity.EntityCodeGenerator"
+            targetPackage="com.foo.kie.entities"
+            targetDirectory="src/main/java"/>
+
+    <keyDefinitionGenerator
+            type="com.nxllxn.codegenerator.codegen.generator.key.KeyCodeGenerator"
+            targetPackage="com.foo.kie.key"
+            targetDirectory="src/main/java"/>
+
+    <javaClientGenerator
+            type="com.nxllxn.codegenerator.codegen.generator.mapper.MapperCodeGenerator"
+            targetPackage="com.foo.kie.mapper"
+            targetDirectory="src/main/java"/>
+
+    <sqlMapGenerator
+            type="com.nxllxn.codegenerator.codegen.generator.xml.XmlCodeGenerator"
+            targetPackage="com.foo.kie.mapper.xml"
+            targetDirectory="src/main/java"
+            publicId="-//mybatis.org//DTD Mapper 3.0//EN"
+            systemId="http://mybatis.org/dtd/mybatis-3-mapper.dtd"
+            nameSpacePackage=""/>
+
+    <serviceGenerator
+            type="com.nxllxn.codegenerator.codegen.generator.service.ServiceCodeGenerator"
+            targetPackage="com.foo.kie.service"
+            targetDirectory="src/main/java"/>
+
+    <serviceImplGenerator
+            type="com.nxllxn.codegenerator.codegen.generator.serviceimpl.ServiceImplCodeGenerator"
+            targetPackage="com.foo.kie.service.impl"
+            targetDirectory="src/main/java"/>
+
+    <controllerGenerator
+            type="com.nxllxn.codegenerator.codegen.generator.controller.ControllerCodeGenerator"
+            targetPackage="com.foo.kie.controller"
+            targetDirectory="src/main/java"/>
+
+    <exceptionHandlerGenerator
+            type="com.nxllxn.codegenerator.codegen.generator.exception.ExceptionHandlerCodeGenerator"
+            targetPackage="com.foo.kie.exception"
+            targetDirectory="src/main/java"/>
+
+    <applicationGenerator
+            type="com.nxllxn.codegenerator.codegen.generator.application.ApplicationCodeGenerator"
+            targetPackage="com.foo.kie"
+            targetDirectory="src/main/java"/>
+
+    <configGenerator
+            type="com.nxllxn.codegenerator.codegen.generator.config.ConfigCodeGenerator"
+            targetPackage=""
+            targetDirectory="src/main/resources"/>
+
+    <pomGenerator
+            type="com.nxllxn.codegenerator.codegen.generator.maven.PomCodeGenerator"
+            targetPackage=""
+            targetDirectory=""
+            publicId="-//mybatis.org//DTD Mapper 3.0//EN"
+            systemId="http://mybatis.org/dtd/mybatis-3-mapper.dtd"
+            namespace="http://maven.apache.org/POM/4.0.0"
+            xsiNamespace="http://www.w3.org/2001/XMLSchema-instance"/>
+
+    <!--TODO add later-->
+    <!--<commentGenerator
+            type=""/>
+
+    <plugin
+            type=""/>-->
+
+    <!--TODO fix later,getTables方法应该按照配置的表名进行表信息获取，目前为获取全部表-->
+    <table tableName="%" entityName="">
+        <tableRenaming searchFor="prefix" replaceWith=""/><!--表重命名-->
+
+        <columnRenaming searchFor="prefix" replaceWith=""/><!--列重命名-->
+
+        <columnOverride column="idxxx"><!--列配置覆盖-->
+            <property name="property" value="recordId"/>
+            <property name="javaType" value="java.lang.Integer"/>
+            <property name="jdbcType" value="integer"/>
+            <property name="typeHandler" value=""/>
+        </columnOverride>
+
+        <columnIgnore column="detail"/><!--列忽略-->
+    </table>
+</context>

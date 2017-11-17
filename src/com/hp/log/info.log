@@ -1,0 +1,585 @@
+2017-11-16 16:08:46 下午 [Thread: main][ Class:org.springframework.context.annotation.AnnotationConfigApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583) ]
+INFO:Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3: startup date [Thu Nov 16 16:08:46 CST 2017]; root of context hierarchy
+  2017-11-16 16:08:46 下午 [Thread: background-preinit][ Class:org.hibernate.validator.internal.util.Version >> Method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:30) ]
+INFO:HV000001: Hibernate Validator 5.3.5.Final
+  2017-11-16 16:08:46 下午 [Thread: main][ Class:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >> Method: org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:325) ]
+INFO:Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ca4a31f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-11-16 16:08:47 下午 [Thread: main][ Class:com.nxllxn.codegenerator.Application >> Method: org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:593) ]
+INFO:No active profile set, falling back to default profiles: default
+  2017-11-16 16:08:47 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583) ]
+INFO:Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Thu Nov 16 16:08:47 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3
+  2017-11-16 16:08:47 下午 [Thread: main][ Class:org.springframework.cloud.context.scope.GenericScope >> Method: org.springframework.cloud.context.scope.GenericScope.setSerializationId(GenericScope.java:263) ]
+INFO:BeanFactory id=858e41ff-293d-39cf-bb53-0603fbdc5ffe
+  2017-11-16 16:08:47 下午 [Thread: main][ Class:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >> Method: org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:325) ]
+INFO:Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ca4a31f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer >> Method: org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:89) ]
+INFO:Tomcat initialized with port(s): 8080 (http)
+  2017-11-16 16:08:48 下午 [Thread: localhost-startStop-1][ Class:org.springframework.web.context.ContextLoader >> Method: org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.prepareEmbeddedWebApplicationContext(EmbeddedWebApplicationContext.java:276) ]
+INFO:Root WebApplicationContext: initialization completed in 947 ms
+  2017-11-16 16:08:48 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.ServletRegistrationBean >> Method: org.springframework.boot.web.servlet.ServletRegistrationBean.onStartup(ServletRegistrationBean.java:190) ]
+INFO:Mapping servlet: 'dispatcherServlet' to [/]
+  2017-11-16 16:08:48 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'characterEncodingFilter' to: [/*]
+  2017-11-16 16:08:48 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+  2017-11-16 16:08:48 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'httpPutFormContentFilter' to: [/*]
+  2017-11-16 16:08:48 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'requestContextFilter' to: [/*]
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration >> Method: org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration.configureArchaius(ArchaiusAutoConfiguration.java:147) ]
+WARN:No spring.application.name found, defaulting to 'application'
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) ]
+WARN:No URLs will be polled as dynamic configuration sources.
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) ]
+INFO:To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) ]
+WARN:No URLs will be polled as dynamic configuration sources.
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) ]
+INFO:To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Thu Nov 16 16:08:47 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/generateCode],methods=[POST]}" onto public void com.nxllxn.codegenerator.controller.CodeGeneratorController.generateCode(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.sql.SQLException
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver >> Method: org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:273) ]
+INFO:Detected @ExceptionHandler methods in globalExceptionHandler
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:431) ]
+INFO:Registering beans for JMX exposure on startup
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'environmentManager' has been autodetected for JMX exposure
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'refreshScope' has been autodetected for JMX exposure
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+  2017-11-16 16:08:48 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=67545b57,type=ConfigurationPropertiesRebinder]
+  2017-11-16 16:08:49 下午 [Thread: main][ Class:org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter >> Method: org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) ]
+ERROR:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+  2017-11-16 16:08:49 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984) ]
+INFO:Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Thu Nov 16 16:08:47 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3
+  2017-11-16 16:08:49 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.destroy(MBeanExporter.java:449) ]
+INFO:Unregistering JMX-exposed beans on shutdown
+  2017-11-16 16:08:49 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.support.MBeanRegistrationSupport.unregisterBeans(MBeanRegistrationSupport.java:241) ]
+INFO:Unregistering JMX-exposed beans
+  2017-11-16 16:08:59 下午 [Thread: main][ Class:org.springframework.context.annotation.AnnotationConfigApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583) ]
+INFO:Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3: startup date [Thu Nov 16 16:08:59 CST 2017]; root of context hierarchy
+  2017-11-16 16:08:59 下午 [Thread: background-preinit][ Class:org.hibernate.validator.internal.util.Version >> Method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:30) ]
+INFO:HV000001: Hibernate Validator 5.3.5.Final
+  2017-11-16 16:08:59 下午 [Thread: main][ Class:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >> Method: org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:325) ]
+INFO:Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ca4a31f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-11-16 16:08:59 下午 [Thread: main][ Class:com.nxllxn.codegenerator.Application >> Method: org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:593) ]
+INFO:No active profile set, falling back to default profiles: default
+  2017-11-16 16:08:59 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583) ]
+INFO:Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Thu Nov 16 16:08:59 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3
+  2017-11-16 16:09:00 下午 [Thread: main][ Class:org.springframework.cloud.context.scope.GenericScope >> Method: org.springframework.cloud.context.scope.GenericScope.setSerializationId(GenericScope.java:263) ]
+INFO:BeanFactory id=858e41ff-293d-39cf-bb53-0603fbdc5ffe
+  2017-11-16 16:09:00 下午 [Thread: main][ Class:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >> Method: org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:325) ]
+INFO:Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ca4a31f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-11-16 16:09:00 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer >> Method: org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:89) ]
+INFO:Tomcat initialized with port(s): 8080 (http)
+  2017-11-16 16:09:00 下午 [Thread: localhost-startStop-1][ Class:org.springframework.web.context.ContextLoader >> Method: org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.prepareEmbeddedWebApplicationContext(EmbeddedWebApplicationContext.java:276) ]
+INFO:Root WebApplicationContext: initialization completed in 901 ms
+  2017-11-16 16:09:00 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.ServletRegistrationBean >> Method: org.springframework.boot.web.servlet.ServletRegistrationBean.onStartup(ServletRegistrationBean.java:190) ]
+INFO:Mapping servlet: 'dispatcherServlet' to [/]
+  2017-11-16 16:09:00 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'characterEncodingFilter' to: [/*]
+  2017-11-16 16:09:00 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+  2017-11-16 16:09:00 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'httpPutFormContentFilter' to: [/*]
+  2017-11-16 16:09:00 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'requestContextFilter' to: [/*]
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration >> Method: org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration.configureArchaius(ArchaiusAutoConfiguration.java:147) ]
+WARN:No spring.application.name found, defaulting to 'application'
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) ]
+WARN:No URLs will be polled as dynamic configuration sources.
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) ]
+INFO:To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) ]
+WARN:No URLs will be polled as dynamic configuration sources.
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) ]
+INFO:To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Thu Nov 16 16:08:59 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/generateCode],methods=[POST]}" onto public void com.nxllxn.codegenerator.controller.CodeGeneratorController.generateCode(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.sql.SQLException
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver >> Method: org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:273) ]
+INFO:Detected @ExceptionHandler methods in globalExceptionHandler
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:431) ]
+INFO:Registering beans for JMX exposure on startup
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'environmentManager' has been autodetected for JMX exposure
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'refreshScope' has been autodetected for JMX exposure
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=67545b57,type=ConfigurationPropertiesRebinder]
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer >> Method: org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:201) ]
+INFO:Tomcat started on port(s): 8080 (http)
+  2017-11-16 16:09:01 下午 [Thread: main][ Class:com.nxllxn.codegenerator.Application >> Method: org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57) ]
+INFO:Started Application in 3.104 seconds (JVM running for 3.389)
+  2017-11-16 16:09:52 下午 [Thread: main][ Class:org.springframework.context.annotation.AnnotationConfigApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583) ]
+INFO:Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3: startup date [Thu Nov 16 16:09:52 CST 2017]; root of context hierarchy
+  2017-11-16 16:09:53 下午 [Thread: main][ Class:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >> Method: org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:325) ]
+INFO:Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ca4a31f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-11-16 16:09:53 下午 [Thread: background-preinit][ Class:org.hibernate.validator.internal.util.Version >> Method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:30) ]
+INFO:HV000001: Hibernate Validator 5.3.5.Final
+  2017-11-16 16:09:54 下午 [Thread: main][ Class:org.springframework.boot.logging.LoggingApplicationListener >> Method: org.springframework.boot.logging.LoggingApplicationListener.setLogLevel(LoggingApplicationListener.java:359) ]
+ERROR:Cannot set level: ERROE for 'null'
+  2017-11-16 16:09:54 下午 [Thread: main][ Class:com.nxllxn.codegenerator.Application >> Method: org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:593) ]
+INFO:No active profile set, falling back to default profiles: default
+  2017-11-16 16:09:54 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583) ]
+INFO:Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Thu Nov 16 16:09:54 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3
+  2017-11-16 16:09:54 下午 [Thread: main][ Class:org.springframework.cloud.context.scope.GenericScope >> Method: org.springframework.cloud.context.scope.GenericScope.setSerializationId(GenericScope.java:263) ]
+INFO:BeanFactory id=858e41ff-293d-39cf-bb53-0603fbdc5ffe
+  2017-11-16 16:09:54 下午 [Thread: main][ Class:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >> Method: org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:325) ]
+INFO:Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ca4a31f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-11-16 16:09:55 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer >> Method: org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:89) ]
+INFO:Tomcat initialized with port(s): 8080 (http)
+  2017-11-16 16:09:55 下午 [Thread: localhost-startStop-1][ Class:org.springframework.web.context.ContextLoader >> Method: org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.prepareEmbeddedWebApplicationContext(EmbeddedWebApplicationContext.java:276) ]
+INFO:Root WebApplicationContext: initialization completed in 1070 ms
+  2017-11-16 16:09:55 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.ServletRegistrationBean >> Method: org.springframework.boot.web.servlet.ServletRegistrationBean.onStartup(ServletRegistrationBean.java:190) ]
+INFO:Mapping servlet: 'dispatcherServlet' to [/]
+  2017-11-16 16:09:55 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'characterEncodingFilter' to: [/*]
+  2017-11-16 16:09:55 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+  2017-11-16 16:09:55 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'httpPutFormContentFilter' to: [/*]
+  2017-11-16 16:09:55 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'requestContextFilter' to: [/*]
+  2017-11-16 16:09:55 下午 [Thread: main][ Class:org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration >> Method: org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration.configureArchaius(ArchaiusAutoConfiguration.java:147) ]
+WARN:No spring.application.name found, defaulting to 'application'
+  2017-11-16 16:09:55 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) ]
+WARN:No URLs will be polled as dynamic configuration sources.
+  2017-11-16 16:09:55 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) ]
+INFO:To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-11-16 16:09:55 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) ]
+WARN:No URLs will be polled as dynamic configuration sources.
+  2017-11-16 16:09:55 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) ]
+INFO:To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-11-16 16:09:55 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Thu Nov 16 16:09:54 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3
+  2017-11-16 16:09:55 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/generateCode],methods=[POST]}" onto public void com.nxllxn.codegenerator.controller.CodeGeneratorController.generateCode(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.sql.SQLException
+  2017-11-16 16:09:55 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  2017-11-16 16:09:55 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  2017-11-16 16:09:55 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:09:55 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:09:55 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver >> Method: org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:273) ]
+INFO:Detected @ExceptionHandler methods in globalExceptionHandler
+  2017-11-16 16:09:56 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:09:56 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:431) ]
+INFO:Registering beans for JMX exposure on startup
+  2017-11-16 16:09:56 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+  2017-11-16 16:09:56 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'environmentManager' has been autodetected for JMX exposure
+  2017-11-16 16:09:56 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'refreshScope' has been autodetected for JMX exposure
+  2017-11-16 16:09:56 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+  2017-11-16 16:09:56 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+  2017-11-16 16:09:56 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=67545b57,type=ConfigurationPropertiesRebinder]
+  2017-11-16 16:09:56 下午 [Thread: main][ Class:org.springframework.cloud.logging.LoggingRebinder >> Method: org.springframework.cloud.logging.LoggingRebinder.setLogLevel(LoggingRebinder.java:77) ]
+ERROR:Cannot set level: ERROE for 'null'
+  2017-11-16 16:09:56 下午 [Thread: main][ Class:org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter >> Method: org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) ]
+ERROR:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+  2017-11-16 16:09:56 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984) ]
+INFO:Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Thu Nov 16 16:09:54 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3
+  2017-11-16 16:09:56 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.destroy(MBeanExporter.java:449) ]
+INFO:Unregistering JMX-exposed beans on shutdown
+  2017-11-16 16:09:56 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.support.MBeanRegistrationSupport.unregisterBeans(MBeanRegistrationSupport.java:241) ]
+INFO:Unregistering JMX-exposed beans
+  2017-11-16 16:09:56 下午 [Thread: main][ Class:org.springframework.context.annotation.AnnotationConfigApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583) ]
+INFO:Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3: startup date [Thu Nov 16 16:09:56 CST 2017]; root of context hierarchy
+  2017-11-16 16:10:00 下午 [Thread: Thread-6][ Class:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984) ]
+INFO:Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Thu Nov 16 16:08:59 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3
+  2017-11-16 16:10:00 下午 [Thread: Thread-6][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.destroy(MBeanExporter.java:449) ]
+INFO:Unregistering JMX-exposed beans on shutdown
+  2017-11-16 16:10:00 下午 [Thread: Thread-6][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.support.MBeanRegistrationSupport.unregisterBeans(MBeanRegistrationSupport.java:241) ]
+INFO:Unregistering JMX-exposed beans
+  2017-11-16 16:10:02 下午 [Thread: main][ Class:org.springframework.context.annotation.AnnotationConfigApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583) ]
+INFO:Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3: startup date [Thu Nov 16 16:10:02 CST 2017]; root of context hierarchy
+  2017-11-16 16:10:03 下午 [Thread: main][ Class:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >> Method: org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:325) ]
+INFO:Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ca4a31f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-11-16 16:10:03 下午 [Thread: background-preinit][ Class:org.hibernate.validator.internal.util.Version >> Method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:30) ]
+INFO:HV000001: Hibernate Validator 5.3.5.Final
+  2017-11-16 16:10:03 下午 [Thread: main][ Class:com.nxllxn.codegenerator.Application >> Method: org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:593) ]
+INFO:No active profile set, falling back to default profiles: default
+  2017-11-16 16:10:03 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583) ]
+INFO:Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Thu Nov 16 16:10:03 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3
+  2017-11-16 16:10:04 下午 [Thread: main][ Class:org.springframework.cloud.context.scope.GenericScope >> Method: org.springframework.cloud.context.scope.GenericScope.setSerializationId(GenericScope.java:263) ]
+INFO:BeanFactory id=858e41ff-293d-39cf-bb53-0603fbdc5ffe
+  2017-11-16 16:10:04 下午 [Thread: main][ Class:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >> Method: org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:325) ]
+INFO:Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ca4a31f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-11-16 16:10:04 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer >> Method: org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:89) ]
+INFO:Tomcat initialized with port(s): 8080 (http)
+  2017-11-16 16:10:04 下午 [Thread: localhost-startStop-1][ Class:org.springframework.web.context.ContextLoader >> Method: org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.prepareEmbeddedWebApplicationContext(EmbeddedWebApplicationContext.java:276) ]
+INFO:Root WebApplicationContext: initialization completed in 1108 ms
+  2017-11-16 16:10:04 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.ServletRegistrationBean >> Method: org.springframework.boot.web.servlet.ServletRegistrationBean.onStartup(ServletRegistrationBean.java:190) ]
+INFO:Mapping servlet: 'dispatcherServlet' to [/]
+  2017-11-16 16:10:04 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'characterEncodingFilter' to: [/*]
+  2017-11-16 16:10:04 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+  2017-11-16 16:10:04 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'httpPutFormContentFilter' to: [/*]
+  2017-11-16 16:10:04 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'requestContextFilter' to: [/*]
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration >> Method: org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration.configureArchaius(ArchaiusAutoConfiguration.java:147) ]
+WARN:No spring.application.name found, defaulting to 'application'
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) ]
+WARN:No URLs will be polled as dynamic configuration sources.
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) ]
+INFO:To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) ]
+WARN:No URLs will be polled as dynamic configuration sources.
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) ]
+INFO:To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Thu Nov 16 16:10:03 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/generateCode],methods=[POST]}" onto public void com.nxllxn.codegenerator.controller.CodeGeneratorController.generateCode(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.sql.SQLException
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver >> Method: org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:273) ]
+INFO:Detected @ExceptionHandler methods in globalExceptionHandler
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:431) ]
+INFO:Registering beans for JMX exposure on startup
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'environmentManager' has been autodetected for JMX exposure
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'refreshScope' has been autodetected for JMX exposure
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=67545b57,type=ConfigurationPropertiesRebinder]
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer >> Method: org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:201) ]
+INFO:Tomcat started on port(s): 8080 (http)
+  2017-11-16 16:10:05 下午 [Thread: main][ Class:com.nxllxn.codegenerator.Application >> Method: org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57) ]
+INFO:Started Application in 3.428 seconds (JVM running for 3.729)
+  2017-11-16 16:10:52 下午 [Thread: main][ Class:org.springframework.context.annotation.AnnotationConfigApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583) ]
+INFO:Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1c72da34: startup date [Thu Nov 16 16:10:52 CST 2017]; root of context hierarchy
+  2017-11-16 16:10:53 下午 [Thread: background-preinit][ Class:org.hibernate.validator.internal.util.Version >> Method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:30) ]
+INFO:HV000001: Hibernate Validator 5.3.5.Final
+  2017-11-16 16:10:53 下午 [Thread: main][ Class:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >> Method: org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:325) ]
+INFO:Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4d7a496] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-11-16 16:10:53 下午 [Thread: main][ Class:com.nxllxn.codegenerator.Application >> Method: org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:593) ]
+INFO:No active profile set, falling back to default profiles: default
+  2017-11-16 16:10:53 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583) ]
+INFO:Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d41f816: startup date [Thu Nov 16 16:10:53 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1c72da34
+  2017-11-16 16:10:54 下午 [Thread: Thread-6][ Class:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984) ]
+INFO:Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Thu Nov 16 16:10:03 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3
+  2017-11-16 16:10:54 下午 [Thread: Thread-6][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.destroy(MBeanExporter.java:449) ]
+INFO:Unregistering JMX-exposed beans on shutdown
+  2017-11-16 16:10:54 下午 [Thread: Thread-6][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.support.MBeanRegistrationSupport.unregisterBeans(MBeanRegistrationSupport.java:241) ]
+INFO:Unregistering JMX-exposed beans
+  2017-11-16 16:10:56 下午 [Thread: main][ Class:org.springframework.context.annotation.AnnotationConfigApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583) ]
+INFO:Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1c72da34: startup date [Thu Nov 16 16:10:56 CST 2017]; root of context hierarchy
+  2017-11-16 16:10:56 下午 [Thread: background-preinit][ Class:org.hibernate.validator.internal.util.Version >> Method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:30) ]
+INFO:HV000001: Hibernate Validator 5.3.5.Final
+  2017-11-16 16:10:56 下午 [Thread: main][ Class:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >> Method: org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:325) ]
+INFO:Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4d7a496] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-11-16 16:10:57 下午 [Thread: main][ Class:com.nxllxn.codegenerator.Application >> Method: org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:593) ]
+INFO:No active profile set, falling back to default profiles: default
+  2017-11-16 16:10:57 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583) ]
+INFO:Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26ceffa8: startup date [Thu Nov 16 16:10:57 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1c72da34
+  2017-11-16 16:10:57 下午 [Thread: main][ Class:org.springframework.cloud.context.scope.GenericScope >> Method: org.springframework.cloud.context.scope.GenericScope.setSerializationId(GenericScope.java:263) ]
+INFO:BeanFactory id=858e41ff-293d-39cf-bb53-0603fbdc5ffe
+  2017-11-16 16:10:57 下午 [Thread: main][ Class:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >> Method: org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:325) ]
+INFO:Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4d7a496] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-11-16 16:10:57 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer >> Method: org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:89) ]
+INFO:Tomcat initialized with port(s): 8080 (http)
+  2017-11-16 16:10:57 下午 [Thread: localhost-startStop-1][ Class:org.springframework.web.context.ContextLoader >> Method: org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.prepareEmbeddedWebApplicationContext(EmbeddedWebApplicationContext.java:276) ]
+INFO:Root WebApplicationContext: initialization completed in 739 ms
+  2017-11-16 16:10:57 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.ServletRegistrationBean >> Method: org.springframework.boot.web.servlet.ServletRegistrationBean.onStartup(ServletRegistrationBean.java:190) ]
+INFO:Mapping servlet: 'dispatcherServlet' to [/]
+  2017-11-16 16:10:57 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'characterEncodingFilter' to: [/*]
+  2017-11-16 16:10:57 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+  2017-11-16 16:10:57 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'httpPutFormContentFilter' to: [/*]
+  2017-11-16 16:10:57 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'requestContextFilter' to: [/*]
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration >> Method: org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration.configureArchaius(ArchaiusAutoConfiguration.java:147) ]
+WARN:No spring.application.name found, defaulting to 'application'
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) ]
+WARN:No URLs will be polled as dynamic configuration sources.
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) ]
+INFO:To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) ]
+WARN:No URLs will be polled as dynamic configuration sources.
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) ]
+INFO:To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26ceffa8: startup date [Thu Nov 16 16:10:57 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1c72da34
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/generateCode],methods=[POST]}" onto public void com.nxllxn.codegenerator.controller.CodeGeneratorController.generateCode(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.sql.SQLException
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver >> Method: org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:273) ]
+INFO:Detected @ExceptionHandler methods in globalExceptionHandler
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:431) ]
+INFO:Registering beans for JMX exposure on startup
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'environmentManager' has been autodetected for JMX exposure
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'refreshScope' has been autodetected for JMX exposure
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=26ceffa8,type=ConfigurationPropertiesRebinder]
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer >> Method: org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:201) ]
+INFO:Tomcat started on port(s): 8080 (http)
+  2017-11-16 16:10:58 下午 [Thread: main][ Class:com.nxllxn.codegenerator.Application >> Method: org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57) ]
+INFO:Started Application in 2.626 seconds (JVM running for 2.928)
+  2017-11-16 16:11:33 下午 [Thread: Thread-6][ Class:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984) ]
+INFO:Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26ceffa8: startup date [Thu Nov 16 16:10:57 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1c72da34
+  2017-11-16 16:11:33 下午 [Thread: Thread-6][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.destroy(MBeanExporter.java:449) ]
+INFO:Unregistering JMX-exposed beans on shutdown
+  2017-11-16 16:11:33 下午 [Thread: Thread-6][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.support.MBeanRegistrationSupport.unregisterBeans(MBeanRegistrationSupport.java:241) ]
+INFO:Unregistering JMX-exposed beans
+  2017-11-16 16:11:43 下午 [Thread: main][ Class:org.springframework.context.annotation.AnnotationConfigApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583) ]
+INFO:Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38364841: startup date [Thu Nov 16 16:11:43 CST 2017]; root of context hierarchy
+  2017-11-16 16:11:44 下午 [Thread: background-preinit][ Class:org.hibernate.validator.internal.util.Version >> Method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:30) ]
+INFO:HV000001: Hibernate Validator 5.3.5.Final
+  2017-11-16 16:11:44 下午 [Thread: main][ Class:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >> Method: org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:325) ]
+INFO:Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a33fed2c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-11-16 16:11:44 下午 [Thread: main][ Class:com.nxllxn.codegenerator.Application >> Method: org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:593) ]
+INFO:No active profile set, falling back to default profiles: default
+  2017-11-16 16:11:44 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583) ]
+INFO:Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d9c13b5: startup date [Thu Nov 16 16:11:44 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@38364841
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.cloud.context.scope.GenericScope >> Method: org.springframework.cloud.context.scope.GenericScope.setSerializationId(GenericScope.java:263) ]
+INFO:BeanFactory id=858e41ff-293d-39cf-bb53-0603fbdc5ffe
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >> Method: org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:325) ]
+INFO:Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a33fed2c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer >> Method: org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:89) ]
+INFO:Tomcat initialized with port(s): 8080 (http)
+  2017-11-16 16:11:45 下午 [Thread: localhost-startStop-1][ Class:org.springframework.web.context.ContextLoader >> Method: org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.prepareEmbeddedWebApplicationContext(EmbeddedWebApplicationContext.java:276) ]
+INFO:Root WebApplicationContext: initialization completed in 761 ms
+  2017-11-16 16:11:45 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.ServletRegistrationBean >> Method: org.springframework.boot.web.servlet.ServletRegistrationBean.onStartup(ServletRegistrationBean.java:190) ]
+INFO:Mapping servlet: 'dispatcherServlet' to [/]
+  2017-11-16 16:11:45 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'characterEncodingFilter' to: [/*]
+  2017-11-16 16:11:45 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+  2017-11-16 16:11:45 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'httpPutFormContentFilter' to: [/*]
+  2017-11-16 16:11:45 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'requestContextFilter' to: [/*]
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration >> Method: org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration.configureArchaius(ArchaiusAutoConfiguration.java:147) ]
+WARN:No spring.application.name found, defaulting to 'application'
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) ]
+WARN:No URLs will be polled as dynamic configuration sources.
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) ]
+INFO:To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) ]
+WARN:No URLs will be polled as dynamic configuration sources.
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) ]
+INFO:To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d9c13b5: startup date [Thu Nov 16 16:11:44 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@38364841
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/generateCode],methods=[POST]}" onto public void com.nxllxn.codegenerator.controller.CodeGeneratorController.generateCode(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.sql.SQLException
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver >> Method: org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:273) ]
+INFO:Detected @ExceptionHandler methods in globalExceptionHandler
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:431) ]
+INFO:Registering beans for JMX exposure on startup
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'environmentManager' has been autodetected for JMX exposure
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'refreshScope' has been autodetected for JMX exposure
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+  2017-11-16 16:11:45 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+  2017-11-16 16:11:46 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=3d9c13b5,type=ConfigurationPropertiesRebinder]
+  2017-11-16 16:11:46 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer >> Method: org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:201) ]
+INFO:Tomcat started on port(s): 8080 (http)
+  2017-11-16 16:11:46 下午 [Thread: main][ Class:com.nxllxn.codegenerator.Application >> Method: org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57) ]
+INFO:Started Application in 2.653 seconds (JVM running for 2.953)
+  2017-11-16 16:11:49 下午 [Thread: Thread-6][ Class:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984) ]
+INFO:Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d9c13b5: startup date [Thu Nov 16 16:11:44 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@38364841
+  2017-11-16 16:11:49 下午 [Thread: Thread-6][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.destroy(MBeanExporter.java:449) ]
+INFO:Unregistering JMX-exposed beans on shutdown
+  2017-11-16 16:11:49 下午 [Thread: Thread-6][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.support.MBeanRegistrationSupport.unregisterBeans(MBeanRegistrationSupport.java:241) ]
+INFO:Unregistering JMX-exposed beans
+  2017-11-16 16:11:50 下午 [Thread: main][ Class:org.springframework.context.annotation.AnnotationConfigApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583) ]
+INFO:Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3: startup date [Thu Nov 16 16:11:50 CST 2017]; root of context hierarchy
+  2017-11-16 16:11:51 下午 [Thread: background-preinit][ Class:org.hibernate.validator.internal.util.Version >> Method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:30) ]
+INFO:HV000001: Hibernate Validator 5.3.5.Final
+  2017-11-16 16:11:51 下午 [Thread: main][ Class:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >> Method: org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:325) ]
+INFO:Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ca4a31f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-11-16 16:11:51 下午 [Thread: main][ Class:com.nxllxn.codegenerator.Application >> Method: org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:593) ]
+INFO:No active profile set, falling back to default profiles: default
+  2017-11-16 16:11:51 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583) ]
+INFO:Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@558bdf1f: startup date [Thu Nov 16 16:11:51 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3
+  2017-11-16 16:11:52 下午 [Thread: main][ Class:org.springframework.cloud.context.scope.GenericScope >> Method: org.springframework.cloud.context.scope.GenericScope.setSerializationId(GenericScope.java:263) ]
+INFO:BeanFactory id=858e41ff-293d-39cf-bb53-0603fbdc5ffe
+  2017-11-16 16:11:52 下午 [Thread: main][ Class:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >> Method: org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:325) ]
+INFO:Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ca4a31f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2017-11-16 16:11:52 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer >> Method: org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:89) ]
+INFO:Tomcat initialized with port(s): 8080 (http)
+  2017-11-16 16:11:52 下午 [Thread: localhost-startStop-1][ Class:org.springframework.web.context.ContextLoader >> Method: org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.prepareEmbeddedWebApplicationContext(EmbeddedWebApplicationContext.java:276) ]
+INFO:Root WebApplicationContext: initialization completed in 1162 ms
+  2017-11-16 16:11:52 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.ServletRegistrationBean >> Method: org.springframework.boot.web.servlet.ServletRegistrationBean.onStartup(ServletRegistrationBean.java:190) ]
+INFO:Mapping servlet: 'dispatcherServlet' to [/]
+  2017-11-16 16:11:52 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'characterEncodingFilter' to: [/*]
+  2017-11-16 16:11:52 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+  2017-11-16 16:11:52 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'httpPutFormContentFilter' to: [/*]
+  2017-11-16 16:11:52 下午 [Thread: localhost-startStop-1][ Class:org.springframework.boot.web.servlet.FilterRegistrationBean >> Method: org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258) ]
+INFO:Mapping filter: 'requestContextFilter' to: [/*]
+  2017-11-16 16:11:52 下午 [Thread: main][ Class:org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration >> Method: org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration.configureArchaius(ArchaiusAutoConfiguration.java:147) ]
+WARN:No spring.application.name found, defaulting to 'application'
+  2017-11-16 16:11:52 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) ]
+WARN:No URLs will be polled as dynamic configuration sources.
+  2017-11-16 16:11:52 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) ]
+INFO:To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-11-16 16:11:52 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) ]
+WARN:No URLs will be polled as dynamic configuration sources.
+  2017-11-16 16:11:52 下午 [Thread: main][ Class:com.netflix.config.sources.URLConfigurationSource >> Method: com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) ]
+INFO:To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+  2017-11-16 16:11:53 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter >> Method: org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) ]
+INFO:Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@558bdf1f: startup date [Thu Nov 16 16:11:51 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3
+  2017-11-16 16:11:53 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/generateCode],methods=[POST]}" onto public void com.nxllxn.codegenerator.controller.CodeGeneratorController.generateCode(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.sql.SQLException
+  2017-11-16 16:11:53 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  2017-11-16 16:11:53 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) ]
+INFO:Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  2017-11-16 16:11:53 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:11:53 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:11:53 下午 [Thread: main][ Class:org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver >> Method: org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:273) ]
+INFO:Detected @ExceptionHandler methods in globalExceptionHandler
+  2017-11-16 16:11:53 下午 [Thread: main][ Class:org.springframework.web.servlet.handler.SimpleUrlHandlerMapping >> Method: org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362) ]
+INFO:Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2017-11-16 16:11:53 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:431) ]
+INFO:Registering beans for JMX exposure on startup
+  2017-11-16 16:11:53 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+  2017-11-16 16:11:53 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'environmentManager' has been autodetected for JMX exposure
+  2017-11-16 16:11:53 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916) ]
+INFO:Bean with name 'refreshScope' has been autodetected for JMX exposure
+  2017-11-16 16:11:53 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+  2017-11-16 16:11:53 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+  2017-11-16 16:11:53 下午 [Thread: main][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ]
+INFO:Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=558bdf1f,type=ConfigurationPropertiesRebinder]
+  2017-11-16 16:11:53 下午 [Thread: main][ Class:org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer >> Method: org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:201) ]
+INFO:Tomcat started on port(s): 8080 (http)
+  2017-11-16 16:11:53 下午 [Thread: main][ Class:com.nxllxn.codegenerator.Application >> Method: org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57) ]
+INFO:Started Application in 3.392 seconds (JVM running for 3.7)
+  2017-11-16 16:11:56 下午 [Thread: Thread-6][ Class:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984) ]
+INFO:Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@558bdf1f: startup date [Thu Nov 16 16:11:51 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@473b46c3
+  2017-11-16 16:11:56 下午 [Thread: Thread-6][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.export.MBeanExporter.destroy(MBeanExporter.java:449) ]
+INFO:Unregistering JMX-exposed beans on shutdown
+  2017-11-16 16:11:56 下午 [Thread: Thread-6][ Class:org.springframework.jmx.export.annotation.AnnotationMBeanExporter >> Method: org.springframework.jmx.support.MBeanRegistrationSupport.unregisterBeans(MBeanRegistrationSupport.java:241) ]
+INFO:Unregistering JMX-exposed beans
+  

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!ELEMENT context (properties?,property*,projectBaseInfo,mavenCoordinate,jdbcConnection,
+                javaTypeResolver?,javaModelGenerator?,keyDefinitionGenerator?,
+                javaClientGenerator?,sqlMapGenerator?,
+                serviceGenerator?,serviceImplGenerator?,controllerGenerator?,
+                exceptionHandlerGenerator,applicationGenerator?,configGenerator?,pomGenerator?,
+                commentGenerator?,plugin*,table*)>
+
+        <!ELEMENT properties EMPTY>
+        <!ATTLIST properties
+                resource CDATA #IMPLIED
+                url CDATA #IMPLIED>
+
+        <!ELEMENT projectBaseInfo EMPTY>
+        <!ATTLIST projectBaseInfo
+                projectName CDATA #REQUIRED
+                sourceDirectory CDATA #REQUIRED
+                resourcesDirectory CDATA #REQUIRED
+                rootPackage CDATA #REQUIRED>
+
+        <!ELEMENT mavenCoordinate EMPTY>
+        <!ATTLIST mavenCoordinate
+                groupId CDATA #REQUIRED
+                artifactId CDATA #REQUIRED
+                version CDATA #REQUIRED>
+
+
+        <!ELEMENT property EMPTY>
+        <!ATTLIST property
+                name CDATA #REQUIRED
+                value CDATA #REQUIRED>
+
+        <!ELEMENT jdbcConnection (property*)>
+        <!ATTLIST jdbcConnection
+                driverClassName CDATA #REQUIRED
+                connectionURL CDATA #REQUIRED
+                userName CDATA #REQUIRED
+                password CDATA #REQUIRED>
+
+        <!ELEMENT javaTypeResolver EMPTY>
+        <!ATTLIST javaTypeResolver
+                type CDATA #REQUIRED>
+
+        <!ELEMENT javaModelGenerator EMPTY>
+        <!ATTLIST javaModelGenerator
+                type CDATA #REQUIRED
+                targetPackage CDATA #REQUIRED
+                targetDirectory CDATA #REQUIRED>
+
+        <!ELEMENT sqlMapGenerator EMPTY>
+        <!ATTLIST sqlMapGenerator
+                type CDATA #REQUIRED
+                targetPackage CDATA #REQUIRED
+                targetDirectory CDATA #REQUIRED
+                publicId CDATA #REQUIRED
+                systemId CDATA #REQUIRED
+                nameSpacePackage CDATA #REQUIRED>
+
+        <!ELEMENT javaClientGenerator EMPTY>
+        <!ATTLIST javaClientGenerator
+                type CDATA #REQUIRED
+                targetPackage CDATA #REQUIRED
+                targetDirectory CDATA #REQUIRED>
+
+        <!ELEMENT keyDefinitionGenerator EMPTY>
+        <!ATTLIST keyDefinitionGenerator
+                type CDATA #REQUIRED
+                targetPackage CDATA #REQUIRED
+                targetDirectory CDATA #REQUIRED>
+
+        <!ELEMENT serviceGenerator EMPTY>
+        <!ATTLIST serviceGenerator
+                type CDATA #REQUIRED
+                targetPackage CDATA #REQUIRED
+                targetDirectory CDATA #REQUIRED>
+
+        <!ELEMENT serviceImplGenerator EMPTY>
+        <!ATTLIST serviceImplGenerator
+                type CDATA #REQUIRED
+                targetPackage CDATA #REQUIRED
+                targetDirectory CDATA #REQUIRED>
+
+        <!ELEMENT controllerGenerator EMPTY>
+        <!ATTLIST controllerGenerator
+                type CDATA #REQUIRED
+                targetPackage CDATA #REQUIRED
+                targetDirectory CDATA #REQUIRED>
+
+        <!ELEMENT exceptionHandlerGenerator EMPTY>
+        <!ATTLIST exceptionHandlerGenerator
+                type CDATA #REQUIRED
+                targetPackage CDATA #REQUIRED
+                targetDirectory CDATA #REQUIRED>
+
+        <!ELEMENT applicationGenerator EMPTY>
+        <!ATTLIST applicationGenerator
+                type CDATA #REQUIRED
+                targetPackage CDATA #REQUIRED
+                targetDirectory CDATA #REQUIRED>
+
+        <!ELEMENT configGenerator EMPTY>
+        <!ATTLIST configGenerator
+                type CDATA #REQUIRED
+                targetPackage CDATA #REQUIRED
+                targetDirectory CDATA #REQUIRED>
+
+        <!ELEMENT pomGenerator EMPTY>
+        <!ATTLIST pomGenerator
+                type CDATA #REQUIRED
+                targetPackage CDATA #REQUIRED
+                targetDirectory CDATA #REQUIRED
+                publicId CDATA #REQUIRED
+                systemId CDATA #REQUIRED
+                namespace CDATA #REQUIRED
+                xsiNamespace CDATA #REQUIRED>
+
+        <!ELEMENT plugin EMPTY>
+        <!ATTLIST plugin
+                type CDATA #REQUIRED>
+
+        <!ELEMENT commentGenerator EMPTY>
+        <!ATTLIST commentGenerator
+                type CDATA #REQUIRED>
+
+        <!ELEMENT table (property*,tableRenaming*,columnRenaming*,columnOverride*,columnIgnore*)>
+        <!ATTLIST table
+                tableName CDATA #REQUIRED
+                entityName CDATA #REQUIRED>
+
+        <!ELEMENT tableRenaming EMPTY>
+        <!ATTLIST tableRenaming
+                searchFor CDATA #REQUIRED
+                replaceWith CDATA #REQUIRED>
+
+        <!ELEMENT columnRenaming EMPTY>
+        <!ATTLIST columnRenaming
+                searchFor CDATA #REQUIRED
+                replaceWith CDATA #REQUIRED>
+
+        <!ELEMENT columnOverride (property*)>
+        <!ATTLIST columnOverride
+                column CDATA #REQUIRED>
+
+        <!ELEMENT columnIgnore EMPTY>
+        <!ATTLIST columnIgnore
+                column CDATA #REQUIRED>

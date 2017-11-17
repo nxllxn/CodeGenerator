@@ -1,0 +1,35 @@
+2017-11-16 16:08:49 下午 [Thread: main][ Class:org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter >> Method: org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) ]
+ERROR:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+ 2017-11-16 16:09:54 下午 [Thread: main][ Class:org.springframework.boot.logging.LoggingApplicationListener >> Method: org.springframework.boot.logging.LoggingApplicationListener.setLogLevel(LoggingApplicationListener.java:359) ]
+ERROR:Cannot set level: ERROE for 'null'
+ 2017-11-16 16:09:56 下午 [Thread: main][ Class:org.springframework.cloud.logging.LoggingRebinder >> Method: org.springframework.cloud.logging.LoggingRebinder.setLogLevel(LoggingRebinder.java:77) ]
+ERROR:Cannot set level: ERROE for 'null'
+ 2017-11-16 16:09:56 下午 [Thread: main][ Class:org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter >> Method: org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) ]
+ERROR:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+ 
